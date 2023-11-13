@@ -4,39 +4,12 @@ For some chatgpt prompts which I used  only for me.
 
 ## WordsLearning
 Prompt="""
-The prompt is asking you to create an HTML table based on a CSV file with two columns: "Content" and "words." The "Content" column contains sentences, and the "words" column contains specific words from those sentences. For each pair of sentence and word, You need to provide the following information in HTML format:
-
-1.The original sentence.
-2.The target word.
-3.The meaning of the target word.
-4.Three additional examples of the target word used in different contexts.
-Additionally, the HTML output should include all words in the "words" column pattern. The output should be organized in a table format, with each row corresponding to a pair of sentence and word.
-
-For examples,I give you the csv file like following:
-"Content","words":
-"polls show Britons rate ""the countryside""
-alongside the royal family","poll"
-Your html output should like this:
-""<tr>
-    <td>polls show Britons rate "the countryside" alongside the royal family</td>
-    <td>poll</td>
-    <td>Meaning: A survey or vote to collect opinions or votes on a particular matter.</td>
-    <td>Examples:
-      <ul>
-        <li>The newspaper conducted a poll to gauge public opinion on the upcoming election.</li>
-        <li>They conducted a poll to determine the most popular candidate.</li>
-        <li>The poll results showed a clear preference for environmental policies.</li>
-      </ul>
-    </td>
-  </tr>
-""
-
-
+User
+Prompt="""
+1. I will provide a text-like representation of CSV data, including two columns: "sentence" and "words."
+2. You are required to add two new columns: "meanings" and "examples." The "meanings" column should contain the meanings of all the words listed in the "words" column. The "examples" column should include three additional examples for each word in the "words" column.
+3. After adding the new columns, you will provide you with the modified text-like CSV format.
+4. Finally, you will convert the modified CSV text into HTML format.
 """
 
-Text="""
-...
-"""
-
-User input next:
-I need you Repeat similar entries for the remaining rows ,not me.
+May you should input again:"You should Repeat similar rows for the rest of the data in html,not me to do it." if there is a sentence likes "  <!-- Repeat similar rows for the rest of the data -->" in html output.
