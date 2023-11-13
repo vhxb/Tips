@@ -4,8 +4,6 @@ For some chatgpt prompts which I used  only for me.
 
 ## WordsLearning
 Prompt="""
-User
-Prompt="""
 1. I will provide a text-like representation of CSV data, including two columns: "sentence" and "words."
 2. You are required to add two new columns: "meanings" and "examples." The "meanings" column should contain the meanings of all the words listed in the "words" column. The "examples" column should include three additional examples for each word in the "words" column.
 3. After adding the new columns, you will get the modified text-like CSV format.
