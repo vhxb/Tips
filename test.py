@@ -19,6 +19,7 @@ messages = [
 
 
 # Processing by openai.
+# Chat Completions response format:https://platform.openai.com/docs/guides/chat-completions/response-format
 response=client.chat.completions.create(
   model="gpt-3.5-turbo-0125",
   messages=messages
