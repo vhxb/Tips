@@ -1,8 +1,10 @@
 # The things after reinstalling Windows:
 
 ## 0.Sure your os version:
-![image](/images/)
+x86: Typically refers to 32-bit systems (though originally 16-bit).  \
+x64: Refers to 64-bit systems, extensions of the x86 architecture.It's also known as x86-64, AMD64 (AMD's version), and Intel 64 (Intel's version). 
 
+Intel/AMD/ARM.
 
 
 
