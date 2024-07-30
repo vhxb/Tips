@@ -1,5 +1,10 @@
 # The things after reinstalling Windows:
 
+## 0.Sure your os version:
+![image](/images/)
+
+
+
 
 ## 1.Network to Internet:
 v2ray + subscribe;others
