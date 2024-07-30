@@ -24,3 +24,7 @@ Two method to add doublepinyin in Windows:
 ## 7.Install Gpgnu and Kleopatra etc.
 
 ## 8.Install office and sure the format is  zh.
+
+## 9.Adding Bitblocker.
+
+## 10.
