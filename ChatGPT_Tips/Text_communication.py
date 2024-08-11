@@ -23,6 +23,7 @@ response=client.chat.completions.create(
   messages=messages
 )
 result = response.choices[0].message.content
+result = " ---------------- " + "Text:" + " ---------------- \n" + Text + " ---------------- " + "Prompt:"  + " ---------------- \n" + Prompt + " ---------------- " + "result:" + " ---------------- \n\n" + result
 
 
 
